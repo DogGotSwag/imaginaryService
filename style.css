@@ -20,5 +20,23 @@ html{
     width: 600px;
     height: 100vh;
     background-size: cover;
+
 }
+
+.odin-logo{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    opacity: .3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.odin-logo img{
+    height: 90px;
+    width: auto;
+}
+
 
