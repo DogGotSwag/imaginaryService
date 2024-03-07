@@ -83,7 +83,7 @@ html{
     font-weight: 900;
     width: 80%;
     margin-left: 40px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 40px;
 }
 
@@ -97,7 +97,6 @@ form {
     width: 100%;
     padding-left: 40px;
     padding-top: 20px;
-    padding-bottom: 20px;
     padding-right: 20px;
     box-shadow: 1px 5px 10px 0px rgb(192, 191, 191)
 }
@@ -135,6 +134,12 @@ input{
     height: 30px;
     border-radius: 6px;
 }
+label{
+    font-size: 12px;
+    font-weight: 550;
+    color: rgb(73, 72, 72);
+    margin-bottom: 5px;
+}
 
 input:focus{
     outline: 1px solid blue;
@@ -170,4 +175,25 @@ button{
 .button-section a{
     text-decoration: none;
     color: rgb(181, 97, 33);
+}
+
+@media only screen and (min-width: 800px) {
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+    }
+
+    .right-side li{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+    }
+    input, label{
+        width: 300px;
+    }
+
+    .disclaimer-section{
+        margin-top: 100px;
+    }
 }
