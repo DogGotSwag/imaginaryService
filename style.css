@@ -74,6 +74,8 @@ html{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: white;
+    width: 100%;
 }
 
 .disclaimer-section{
@@ -89,11 +91,13 @@ span{
 
 
 form {
+    flex: 1;
     width: 100%;
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+    box-shadow: 1px 5px 10px 0px rgb(192, 191, 191)
 }
 h1{
     margin: 0;
@@ -146,7 +150,7 @@ button{
     border: none;
     background-color: rgb(181, 97, 33);
     border-radius: 6px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin-left: 40px;
     font-size: 20px;
     color: whitesmoke;
