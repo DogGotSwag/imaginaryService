@@ -121,6 +121,11 @@ input, label{
 }
 
 input{
-    border: 1px solid rgb(202, 202, 202);
+    border: 1px solid #d3d1d1;
     height: 30px;
+    border-radius: 6px;
+}
+
+input:focus{
+    outline: 1px solid blue;
 }
