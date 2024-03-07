@@ -143,6 +143,7 @@ label{
 
 input:focus{
     outline: 1px solid blue;
+    box-shadow: 3px 3px 10px 0px rgb(189, 189, 189)
 }
 
 
@@ -195,5 +196,6 @@ button{
 
     .disclaimer-section{
         margin-top: 100px;
+        max-width: 600px;
     }
 }
