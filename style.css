@@ -1,0 +1,9 @@
+body,
+html{
+    width: 100wh;
+    height: 100vh;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
