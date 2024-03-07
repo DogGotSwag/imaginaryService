@@ -1,9 +1,24 @@
-body,
-html{
+body,html{
     width: 100wh;
     height: 100vh;
     margin: 0;
+
+}
+html{
+    overflow:hidden;
 }
 *{
     box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.image-section{
+    height: auto;
+}
+img{
+    height: 100vh;
+    width: auto;
 }
