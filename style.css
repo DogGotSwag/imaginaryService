@@ -18,6 +18,7 @@ html{
 .image-section{
     background-image: url("./img/neom-AC3T7tvwPrY-unsplash.jpg");
     width: 600px;
+    min-width:215px;
     height: 100vh;
     background-size: cover;
 
@@ -32,6 +33,7 @@ html{
     justify-content: center;
     align-items: center;
     margin-top: 200px;
+    position: relative;
 }
 
 .odin-logo img{
@@ -39,4 +41,29 @@ html{
     width: auto;
 }
 
+.odin-logo p{
+    font-family:"Yanone Kaffeesatz" ;
+    color: whitesmoke;
+    font-size: 70px;
+    padding: 12px;
+    margin: 0;
+}
+
+.yanone-kaffeesatz {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.shoutout{
+    position: absolute;
+    bottom: 1px;
+    padding: 5px 8px;
+    color: wheat;
+    background-color: black;
+}
+.shoutout a{
+    color: whitesmoke;
+}
 
