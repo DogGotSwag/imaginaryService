@@ -129,3 +129,35 @@ input{
 input:focus{
     outline: 1px solid blue;
 }
+
+
+/* button section */
+
+.button-section{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+button{
+    width: 200px;
+    border: none;
+    background-color: rgb(181, 97, 33);
+    border-radius: 6px;
+    padding: 5px 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+.button-section p{
+    margin-left: 40px;
+}
+
+.button-section a{
+    text-decoration: none;
+    color: rgb(181, 97, 33);
+}
