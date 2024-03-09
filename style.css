@@ -133,6 +133,7 @@ input{
     border: 1px solid #d3d1d1;
     height: 30px;
     border-radius: 6px;
+    padding: 10px 6px;
 }
 label{
     font-size: 12px;
