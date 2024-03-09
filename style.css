@@ -83,7 +83,7 @@ html{
     font-weight: 900;
     width: 80%;
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 5px;
     margin-bottom: 40px;
 }
 
@@ -109,7 +109,7 @@ h1{
 
 form li{
     list-style: none;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 
@@ -126,7 +126,7 @@ input, label{
     margin: 0;
     padding: 0;
     font-family: inherit;
-    font-size: 100%
+    font-size: 100%;
 }
 
 input{
@@ -159,7 +159,7 @@ input:focus{
 }
 
 button{
-    width: 200px;
+    width: 70%;
     border: none;
     background-color: rgb(181, 97, 33);
     border-radius: 6px;
@@ -167,7 +167,8 @@ button{
     margin-left: 40px;
     font-size: 20px;
     color: whitesmoke;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
+    cursor: pointer;
 }
 
 .button-section p{
@@ -198,6 +199,11 @@ button{
     .disclaimer-section{
         margin-top: 100px;
         max-width: 600px;
+    }
+
+    button{
+        width: 200px;
+        margin-bottom: 15px;
     }
 }
 
