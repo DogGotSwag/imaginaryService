@@ -200,3 +200,8 @@ button{
         max-width: 600px;
     }
 }
+
+
+.error{
+    border: 1px solid red;
+}
