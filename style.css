@@ -83,8 +83,12 @@ html{
     font-weight: 900;
     width: 80%;
     margin-left: 40px;
-    margin-top: 5px;
-    margin-bottom: 40px;
+    margin-top: calc(2px + 7vw);
+    margin-bottom: calc(10px + 3vw);
+}
+
+.disclaimer-section p{
+    margin: 0;
 }
 
 span{
@@ -197,7 +201,6 @@ button{
     }
 
     .disclaimer-section{
-        margin-top: calc(25px + 2vw);
         max-width: 600px;
     }
 
